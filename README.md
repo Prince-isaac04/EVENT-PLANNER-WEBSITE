@@ -3,4 +3,4 @@ The Event Planner App is a platform designed to simplify creating, managing, and
 
 Author : AJAYI O. ISAAC
 email :  detech0404@gmail.com
-seyiwehbhshasjhjhasjhasjhsajkasjhsdhgdshdshkdhkdassfjhfjhasajnajnajsncjnacacfafaffFffffgjhdfjhdfjhdfjkdjhdjhdjhdfhdfjhdf
+seyiwehbhshasjhjhasjhas
