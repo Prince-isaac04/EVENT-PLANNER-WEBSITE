@@ -1,0 +1,53 @@
+  .container{
+    width: 90%;
+    height: 750px;
+    padding: 60px 40px;
+    background:transparent;
+    /* border: 2px solid rgba(250,230,179,255); */
+    margin:auto;
+    color: rgb(62, 6, 29);
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    backdrop-filter: blur(20px);
+  }
+
+  .box{
+    height: 100px;
+  }
+  .container .head{
+    align-content: center;
+    color: rgb(62, 6, 29);
+    text-align:center;
+    font-family: 'Lora', serif;
+  }
+  .blinking-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #0b1304;
+    border: 2px solid rgb(62, 6, 29);
+    border-radius: 45px;
+    box-shadow: 5 0 10px rgba(0, 0, 0, .1) ;
+    cursor: pointer;
+    width: 70%;
+    margin: 120px 100px 50px 100px;
+    animation: blink 2s infinite; /* The blinking animation */
+  }
+  
+  .blinking-button:hover {
+    background-color: #a10ee5;
+  }
+  .about {
+    color: rgb(62, 6, 29);
+
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+  
