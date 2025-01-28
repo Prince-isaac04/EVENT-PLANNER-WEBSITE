@@ -1,0 +1,88 @@
+/* General styling for the home page */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(135deg, #ff7e5f, #381402); */
+    backdrop-filter: blur(20px);
+    /* filter: brightness(1.5); */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    /* text-align: center; */
+    /* padding: 0 20px; */
+    /* box-sizing: border-box; */
+  }
+  
+  /* Header styling */
+  .container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(69, 7, 7);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Paragraph styling */
+  .container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    color: rgb(1, 0, 0);
+    max-width: 600px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the buttons container */
+  .cta {
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px;
+  }
+  
+  /* Button styling */
+  .cta button {
+    background-color: #ffffff;
+    height: 50px;
+    width: 300px;
+    color: #ff7e5f;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cta button:hover {
+    background-color: #feb47b;
+    color: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .container p {
+      font-size: 1rem;
+    }
+  
+    .cta {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    /* .cta button { */
+      /* width: 100%; */
+    /* } */
+  }
+  

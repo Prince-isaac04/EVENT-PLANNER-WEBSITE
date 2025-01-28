@@ -1,0 +1,28 @@
+.box {
+    width: 80%;
+    height: 100%;
+    padding: 20px 20px;
+    background:transparent;
+    border: 2px solid rgba(250,230,179,255) ;
+    backdrop-filter: blur(30px);
+    color: #22100a;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 10px 0px;
+}
+.description {
+    display: flexbox;
+justify-content: center;
+color:red ;
+}
+
+.title{
+   text-align: left;
+   
+
+    
+}
