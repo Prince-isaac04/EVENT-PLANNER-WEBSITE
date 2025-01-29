@@ -1,8 +1,11 @@
-# React + Vite
+"The Event Planner App is a platform designed to simplify creating, managing, and attending events, ensuring efficiency and convenience for users.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Author : Ajayi O. Isaac
+Contact : detech0404@gmail.com
 
-Currently, two official plugins are available:
+Technology Used: 
+Frontend ( React + Vite), HTMl, CSS
+Tools: GitHub
+Backend: Node.js, Express
+Deploy : Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
